@@ -1,0 +1,21 @@
+header img{
+	width: 50px;
+}
+header {
+	background: rgb(36,41,46);
+}
+header input{
+	margin-top: 15px;
+	width: 290px; 
+	height: 30px;
+	background: rgb(63,68,72);
+	border-radius: 5px;	
+	border: none;
+}
+header input:focus{	
+	background: #fff;
+}
+header span{
+	color: rgb(200,201,193);
+
+}

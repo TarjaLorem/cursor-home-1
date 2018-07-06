@@ -1,0 +1,78 @@
+
+header{
+	background: aqua;
+	min-height: 40px;
+}
+footer{
+    height: 30px;
+    background: aqua;
+}
+.bcgcolor{
+	height: 30px;
+	background: #ccc;
+	border: 1px black solid;
+	margin:10px 0;
+}
+.bcgHero1, .bcgHero2 {
+    height: 80px;
+	background: #ccc;
+	border: 1px black solid;
+    margin:10px 0;
+}
+.bcgAd{
+    height: 90px;
+    background: #ccc;
+    border: 1px black solid;
+    margin:10px 0;
+}
+.bcgArtFec{
+    height: 400px;
+    background: #ccc;
+    border: 1px black solid;
+    margin:10px 0;
+}
+.bcgArtLis{
+    height: 400px;
+    background: #ccc;
+    border: 1px black solid;
+    margin:10px 0;
+}
+.bcgSid{
+    height: 400px;
+    background: #ccc;
+    border: 1px black solid;
+    margin:10px 0;
+}
+@media screen and (max-width: 992px)
+{
+    .bcgHero2{
+        height: 50px;
+    }
+    .bcgArtFec{
+        height: 90px;
+    }
+    .bcgSid{
+        height: 90px;
+    }
+}
+@media screen and (max-width: 767.9px)
+{
+    .bcgHero1{
+        display: none;
+    }
+    .bcgHero2{
+        height: 30px;
+    }
+    .bcgAd{
+        height: 50px;
+    }
+     .bcgArtFec{
+        height: 50px;
+    }
+    .bcgArtLis{
+        height: 120px;
+    }
+     .bcgSid{
+        display: none;
+    }
+}
