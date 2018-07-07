@@ -3,9 +3,10 @@ header img{
 }
 header {
 	background: rgb(36,41,46);
+
 }
 header input{
-	margin-top: 15px;
+/* 	margin-top: 15px; */
 	width: 290px; 
 	height: 30px;
 	background: rgb(63,68,72);
@@ -15,7 +16,45 @@ header input{
 header input:focus{	
 	background: #fff;
 }
-header span{
-	color: rgb(200,201,193);
+#bell img{
+	width: 20px;
 
+}
+#AndrewTi{
+	width: 230px;
+	border-radius: 6px;
+	margin-top:25px; 
+}
+#follow{
+	width: 230px;
+	margin: 20px 0;
+}
+#menuRepo{
+	margin:25px -20px 0 -20px ; 
+
+}
+#menuRepo div{
+	margin: 0px 20px 0 20px;
+}
+.cardRepo{
+	height: 100px;
+	border: 1px solid black;
+	border-radius: 3px;
+	margin-top: 10px; 
+}
+.cardRepo span{
+	display: inline-block;
+	margin: 10px 20px;
+}
+.contributions{
+	margin: 20px 0 5px 0;
+	display: inline-block;
+}
+.calendar{
+	border-radius: 3px;
+	border: 1px solid black;
+	font-size: 10px;
+}
+.calendarLearn{
+	margin: 0 20px;
 }

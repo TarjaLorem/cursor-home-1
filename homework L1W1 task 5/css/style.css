@@ -43,7 +43,7 @@ footer{
     border: 1px black solid;
     margin:10px 0;
 }
-@media screen and (max-width: 992px)
+@media screen and (max-width: 991.9px)
 {
     .bcgHero2{
         height: 50px;
