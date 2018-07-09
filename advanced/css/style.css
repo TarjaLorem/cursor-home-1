@@ -1,3 +1,6 @@
+*{
+	font-size: 15px;
+}
 header img{
 	width: 50px;
 }
@@ -20,10 +23,26 @@ header input:focus{
 	width: 20px;
 
 }
+#bell1{
+	margin-top: 5px;
+	margin-right: 10px; 
+}
+.btn-secondary{
+	background: rgba(63,68,72,0);
+	border-color: rgba(63,68,72,0);
+}
 #AndrewTi{
 	width: 230px;
 	border-radius: 6px;
 	margin-top:25px; 
+}
+#nickname{
+	display: inline-block;
+	margin-top: 10px;
+	font-size: 35px;
+}
+#name{
+	font-size: 23px;
 }
 #follow{
 	width: 230px;
@@ -51,10 +70,42 @@ header input:focus{
 	display: inline-block;
 }
 .calendar{
+	overflow: auto;
 	border-radius: 3px;
 	border: 1px solid black;
 	font-size: 10px;
 }
 .calendarLearn{
 	margin: 0 20px;
+}
+#month:after {
+	content: "";
+	position:absolute;
+	margin-top: 13px; 
+	width: 87%;
+	height: 1px;
+	background: rgb(63,68,72);	
+}
+.accordion div{
+	background: #fff;
+	border: none;
+}
+.btn{
+	width: 100%
+}
+.btn img{
+	width:20px;
+}
+#help{
+	margin-top: 20px;
+	display: inline-block;
+}
+.nav{
+	margin-top: 40px; 
+}
+footer img{
+	width: 50px;
+}
+footer a {
+	margin: 0 10px;
 }
