@@ -27,6 +27,18 @@ header input:focus{
 	margin-top: 5px;
 	margin-right: 10px; 
 }
+.btn-secondary:focus{
+	box-shadow: none;
+}
+.btn-secondary:hover{
+	background: rgba(63,68,72,0);
+	border-color: rgba(63,68,72,0);
+}
+.btn-secondary:not(:disabled):not(.disabled).active, .btn-secondary:not(:disabled):not(.disabled):active, .show>.btn-secondary.dropdown-toggle{
+	background: rgba(63,68,72,0);
+	border-color: rgba(63,68,72,0);
+	box-shadow: none!important;
+}
 .btn-secondary{
 	background: rgba(63,68,72,0);
 	border-color: rgba(63,68,72,0);
@@ -42,11 +54,13 @@ header input:focus{
 	font-size: 35px;
 }
 #name{
+	
 	font-size: 23px;
 }
 #follow{
 	width: 230px;
 	margin: 20px 0;
+	
 }
 #menuRepo{
 	margin:25px -20px 0 -20px ; 
@@ -70,13 +84,24 @@ header input:focus{
 	display: inline-block;
 }
 .calendar{
-	overflow: auto;
 	border-radius: 3px;
 	border: 1px solid black;
+}
+.calenrarCenter{
+	text-align: center;
+}
+.calendar .month, .wday{
 	font-size: 10px;
 }
 .calendarLearn{
-	margin: 0 20px;
+	margin: 0 80px;
+}
+.contribut-margin{
+	display: inline-block;
+	margin: 13px 0; 
+}
+#month span{
+	margin-right: 5px; 
 }
 #month:after {
 	content: "";
@@ -102,6 +127,9 @@ header input:focus{
 }
 .nav{
 	margin-top: 40px; 
+}
+footer{
+	margin-bottom: 10px; 
 }
 footer img{
 	width: 50px;
