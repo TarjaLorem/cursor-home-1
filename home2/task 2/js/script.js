@@ -1,7 +1,7 @@
 /*task 2*/
 function num (n){
-	if (n > 0){
-		console.log(n);
+	if ( n > 1){
+		console.log(n)
 		return num (n - 1);
 	}
 	else {
