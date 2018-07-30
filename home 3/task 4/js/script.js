@@ -15,7 +15,7 @@ function promiseFirst (data){
 
 async function showAllData(){
 	try{
-	const firstPromise = await promiseFirst();
+		await promiseFirst();
 	} catch(err){
 		console.log(err);
 	}
