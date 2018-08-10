@@ -1,0 +1,16 @@
+
+input{
+	width: 300px;
+	height: 30px;
+	margin: 10px 0;
+}
+table {
+	width: 100%;
+	text-align: center;
+}
+.isDataVisible{
+	display: table-row !important; 
+}
+.notDataVisable{
+	display: none;
+}
